@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Meesho Product Variation Filler",
+  "version": "1.0.0",
+  "description": "Automatically fill product variation details on Meesho",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://*.meesho.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://*.meesho.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
+

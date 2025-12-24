@@ -1,0 +1,14 @@
+/* Additional styles for the extension */
+#meesho-fill-apply-btn {
+  transition: all 0.3s ease;
+}
+
+#meesho-fill-apply-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0,0,0,0.3);
+}
+
+#meesho-fill-apply-btn:active {
+  transform: translateY(0);
+}
+
